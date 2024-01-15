@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "artifacts", "artifacts", "{
 		.gitignore = .gitignore
 		Dockerfile = Dockerfile
 		LICENSE = LICENSE
-		.aws\asp-service-task-definition.json = .aws\asp-service-task-definition.json
+		.github\aws\asp-service-task-definition.json = .github\aws\asp-service-task-definition.json
 	EndProjectSection
 EndProject
 Global
