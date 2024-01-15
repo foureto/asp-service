@@ -1,5 +1,5 @@
 ﻿{
-  "taskDefinitionArn": "arn:aws-cn:ecs:cn-north-1:008405714389:task-definition/asp-service-task:3",
+  "taskDefinitionArn": "arn:aws-cn:ecs:cn-north-1:008405714389:task-definition/aspservice:1",
   "containerDefinitions": [
     {
       "name": "aspservice",
@@ -24,7 +24,7 @@
         "logDriver": "awslogs",
         "options": {
           "awslogs-create-group": "true",
-          "awslogs-group": "/ecs/asp-service-task",
+          "awslogs-group": "/ecs/aspservice",
           "awslogs-region": "cn-north-1",
           "awslogs-stream-prefix": "ecs"
         },
@@ -32,11 +32,11 @@
       }
     }
   ],
-  "family": "asp-service-task",
+  "family": "aspservice",
   "taskRoleArn": "arn:aws-cn:iam::008405714389:role/ecsTaskExecutionRole",
   "executionRoleArn": "arn:aws-cn:iam::008405714389:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
-  "revision": 3,
+  "revision": 1,
   "volumes": [],
   "status": "ACTIVE",
   "requiresAttributes": [
@@ -82,7 +82,7 @@
     "cpuArchitecture": "X86_64",
     "operatingSystemFamily": "LINUX"
   },
-  "registeredAt": "2024-01-14T20:56:06.786Z",
+  "registeredAt": "2024-01-15T11:52:02.923Z",
   "registeredBy": "arn:aws-cn:iam::008405714389:user/moonly-client",
   "tags": []
 }
